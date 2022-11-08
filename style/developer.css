@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap");
+.deve {
+  max-width: 1600px;
+  padding: 50px 0px;
+}
+
+.deve-cont {
+  max-width: 1100px;
+  padding: 50px 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(530px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(530px, 1fr));
+  place-items: center;
+}
+
+.deve-cont-content {
+  max-width: 480px;
+  display: inline-block;
+}
+
+.deve-cont-content__tittle {
+  font-family: 'Poppins';
+  font-size: 58px;
+  line-height: 66px;
+  color: #18181b;
+  margin-bottom: 36px;
+}
+
+.deve-cont-content__des {
+  font-family: 'Poppins';
+  font-size: 15px;
+  line-height: 26px;
+  color: #52525b;
+}
+
+.deve-cont-content-btn {
+  margin-top: 41px;
+  max-width: 480px;
+}
+
+.deve-cont-content-btn__input {
+  font-family: 'Poppins';
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.298);
+  width: 476px;
+  height: 72px;
+  padding-left: 30px;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.deve-cont-content-btn__btn {
+  top: 8px;
+  right: 12px;
+  display: inline-block;
+  width: 181px;
+  font-family: 'Poppins';
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.deve-cont-content-btn__btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.deve-cont-content-counter {
+  width: 455px;
+}
+
+.deve-cont-content-counter-card {
+  margin: 53px 0px 0px;
+  width: 220px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.deve-cont-content-counter-card__number, .deve-cont-content-counter-card__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #18181b;
+  display: inline-block;
+}
+
+.deve-cont-content-counter-card__number {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+}
+
+.deve-cont-content-counter-card__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  width: 77px;
+}
+
+.deve-cont-img {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 550px;
+  display: inline-block;
+}
+
+.deve-cont-img__svg {
+  width: 100%;
+  height: 647px;
+}
+
+@media (max-width: 1059px) {
+  .deve-cont-content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .deve-cont-img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+/*# sourceMappingURL=developer.css.map */
